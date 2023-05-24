@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+         table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,tr,td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            width: 200px;
+            height: 200px;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML Invoice -->
+    <table>
+        <caption>Invoice</caption>
+        <tr>
+            <th colspan="3" style="background-color: skyblue;">Invoice #12345ABC</th>
+            <th style="background-color: skyblue;">18th July 2019</th>
+        </tr>
+
+        <tr>
+            <td colspan="3"><b>Pay To</b>: <p>The Tech Pack</p>
+            <p>123 Willow Street</p>
+            <p>Boulevard, LA-567892</p></td>
+
+            <td colspan="2"><b>Customer</b>: <p>John Lark</p>
+            <p>Dummy Apartments</p>
+            <p>376 Main Street</p>
+            <p>Boulevard, LA-567892</p></td>
+        </tr>
+
+        <tr>
+            <td style="background-color: skyblue;"><b>Name/Description</b></td>
+            <td style="background-color: skyblue;"><b>Qty</b></td>
+            <td style="background-color: skyblue;"><b>MRP</b></td>
+            <td style="background-color: skyblue;"><b>Amount</b></td>
+        </tr>
+
+        <tr>
+            <td>Biryani</td>
+            <td>3</td>
+            <td>400</td>
+            <td>1200</td>
+        </tr>
+
+        <tr>
+            <td>Chocolate Shake</td>
+            <td>3</td>
+            <td>200</td>
+            <td>600</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" style="background-color: skyblue;"><b>Subtotal</b></td>
+            <td>1800</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="background-color: skyblue;"><b>Tax</b></td>
+            <td>10%</td>
+            <td>180</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" style="background-color: skyblue;"><b>Grand Total</b></td>
+            <td>Rs 1620</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

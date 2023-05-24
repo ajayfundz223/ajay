@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 50%;
+            background-color: aquamarine;
+            border-collapse: collapse;
+        }
+        th,tr,td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            background-color: antiquewhite;
+        }
+        td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML TABLES -->
+    <table>
+        <caption>My Table</caption>
+        <tr>
+        <th>Heading 1</th>
+        <th colspan="2">Heading 2</th>
+        <th>Heading 3</th>
+        </tr>
+        
+        <tr>
+            <td>Col 11</td>
+            <td colspan="3">Col 12</td>
+            <!-- <td>Col 13</td> -->
+        </tr>
+        <tr>
+            <td colspan="2">Col 21</td>
+            <td>Col 22</td>
+            <td>Col 23</td>
+        </tr>
+        <tr>
+            <td colspan="2">Col 31</td>
+            <td>Col 32</td>
+            <td>Col 33</td>
+        </tr>
+        <tr>
+            <td>Col 41</td>
+            <td>Col 42</td>
+            <td>Col 43</td>
+        </tr>
+    </table>
+</body>
+</html>
